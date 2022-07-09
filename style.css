@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 69px;
+  
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 760px;
+}
+
+body{
+  font-family: 'Helvetica';
+  color: #888888;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px;
+  background: #707070;
+  height: 399px;
+  color: #ffffff;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 65%);
+}
+
+header h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0;
+  
+}
+
+header h2{
+  font-size: 20px;
+  font-weight: 50;
+}
+
+header h3{
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 24px;
+  
+}
+
+button{
+  width: 160px;
+  height: 40px;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0px 1px 6px #00000029;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  color: #888888;
+}
+
+.wrapper{
+  display: flex;
+  max-width: 920px;
+  width: 100%;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 79px;
+}
+
+.content main{
+  width: 520px;
+}
+
+.content h2{
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.content main p{
+  width: 520px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+fieldset {
+  border: 0;
+}
+
+.form{
+  display: flex;
+  justify-content: flex-end;
+  width: 400px;
+  
+  
+}
+
+.name, .email, .cpf{
+  display: flex;
+  flex-direction: column;
+}
+
+.name label, .email label, .cpf label{
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.name input, .email input, .cpf input{
+  height: 30px;
+  width: 340px;
+  border: 1px solid #707070;
+  margin-bottom: 20px;
+}
+
+.select{
+  margin-bottom: 23px;
+}
+
+.select #feminino{
+  margin-left: 40px;
+}
+
+.form button{
+  width: 100%;
+  font-size: 16px;
+  color: #888888;
+  border: 1px solid #707070;
+}
+
+#marketPlace h2{
+  margin: auto;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
