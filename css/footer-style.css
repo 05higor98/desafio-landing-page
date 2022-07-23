@@ -10,7 +10,7 @@
 }
 
 footer{
-  background: #707070;
+  background: var(--primary-color);
   height: 399px;
   color: #ffffff;
   clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
