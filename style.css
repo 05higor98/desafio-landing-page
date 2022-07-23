@@ -1,59 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 69px;
-}
-
-.buttons {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  width: 760px;
-}
-
-body {
-  font-family: 'Helvetica';
-  color: #888888;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 21px;
-  background: #707070;
-  height: 399px;
-  color: #ffffff;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 65%);
-}
-
-header h1 {
-  font-size: 40px;
-  font-weight: bold;
-  margin-top: 0;
-}
-
-header h2 {
-  font-size: 20px;
-  font-weight: 50;
-}
-
-header h3 {
-  font-size: 14px;
-  font-weight: lighter;
-  margin-top: 24px;
-}
+@import url(./css/header-style.css);
+@import url(./css/reset.css);
+@import url(./css/footer-style.css);
+@import url(./css/product-cards.css);
 
 button {
   width: 160px;
@@ -66,7 +14,12 @@ button {
   color: #888888;
 }
 
-.wrapper {
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container {
   display: flex;
   max-width: 920px;
   width: 100%;
@@ -105,23 +58,12 @@ fieldset {
   width: 400px;
 }
 
-.name,
-.email,
-.cpf {
-  display: flex;
-  flex-direction: column;
-}
-
-.name label,
-.email label,
-.cpf label {
+.label-components{
   font-size: 12px;
   margin-bottom: 7px;
 }
 
-.name input,
-.email input,
-.cpf input {
+.input-components{
   height: 30px;
   width: 340px;
   border: 1px solid #707070;
@@ -143,110 +85,14 @@ fieldset {
   border: 1px solid #707070;
 }
 
-.products{
-  display: flex;
-  flex-direction: column;
-}
-
-#market{
-  display: flex;
-  flex-direction: column;
-}
-
-#headerMkt h2 {
-  display: flex;
-  margin: auto;
-  font-size: 18px;
-  margin-bottom: 50px;
-}
-
-
-#market #headerMkt h2::before {
-  content: '';
-  background-color: #888888;
-  width: 353px;
-  height: 1px;
-  margin-right: 16px;
-  margin-top: 11px;
-}
-
-#market #headerMkt h2::after {
-  content: '';
-  background-color: #888888;
-  width: 353px;
-  height: 1px;
-  margin-left: 16px;
-  margin-top: 11px;
-}
-
-.line{
-  display: flex;
-  justify-content: space-between;
-}
-
-.line .box{
-  width: 200px;
-  height: 150px;
-  border: solid 1px #707070;
-  margin-bottom: 14px;
-}
-
-.produto {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-}
-
-.produto h3{
-  font-size: 14px;
-  font-weight: normal;
-  margin-bottom: 10px;
-}
-
-.produto p{
-  font-size: 12px;
-  margin-bottom: 6px;
-}
-
-.produto .desc{
-  height: 60px;
-}
-
-.produto h2{
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 7px;
-}
-
-.produto span p{
-  margin-bottom: 10px;
-}
-
-.produto button{
-  width: 200px;
-  margin-bottom: 40px;
-}
-
-.products #btnProdutos {
-  margin: auto;
-}
-
-.products #btnProdutos button{
-  width: 260px;
-  height: 39px;
-  font-size: 16px;
-  margin-top: 12px;
-}
-
-
-#teste2 h2{
+#header-share h2 {
   display: flex;
   margin: auto;
   font-size: 18px;
   margin-bottom: 44px;
 }
 
-#teste2 h2::before{
+#header-share h2::before {
   content: '';
   background-color: black;
   width: 351px;
@@ -256,7 +102,7 @@ fieldset {
   margin-left: 0;
 }
 
-#teste2 h2::after{
+#header-share h2::after {
   content: '';
   background-color: black;
   width: 351px;
@@ -272,24 +118,22 @@ fieldset {
   margin-bottom: 40px;
 }
 
-#textFriend p{
+#textFriend p {
   font-size: 14px;
   margin: auto;
 }
 
-.formFriend{
+.formFriend fieldset {
+  margin-bottom: 50px;
+}
+
+.formFriend fieldset .name {
+  margin-right: 40px;
+}
+
+.flex-center {
   display: flex;
   justify-content: center;
-}
-
-.formFriend fieldset{
- display: flex;
- justify-content: center;
- margin-bottom: 50px;
-}
-
-.formFriend fieldset .name{
-  margin-right: 40px;
 }
 
 .formFriend button {
@@ -298,31 +142,10 @@ fieldset {
   font-size: 16px;
 }
 
-.formFriend #friendButton{
-  display: flex;
-  justify-content: center;
+.formFriend button {
   margin-bottom: 72px;
 }
 
-.finish{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.finish p{
-  font-size: 12px;
-  text-align: center;
-  line-height: 18px;
-  margin-top: 157px;
-}
-
-footer{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 21px;
-  background: #707070;
-  height: 399px;
-  color: #ffffff;
-  clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
+.footer-content {
+  margin-top: 69px;
 }

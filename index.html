@@ -9,8 +9,8 @@
   </head>
   <body>
     <header>
-      <div class="flex-container">
-        <div class="intro">
+      <div class="header-content">
+        <div class="intro flex-column">
           <h2>uma seleção de produtos</h2>
           <h1>especial para você</h1>
           <h3>
@@ -29,7 +29,7 @@
     </header>
 
     <section id="home">
-      <div class="wrapper">
+      <div class="flex-container">
         <div class="content">
           <main>
             <h2>Ajude o algotítmo a ser mais certeiro</h2>
@@ -59,19 +59,19 @@
           <div class="form">
             <form>
               <fieldset>
-                <div class="name">
-                  <label>Seu nome:</label>
-                  <input type="text" name="nome" id="nome" />
+                <div class="name flex-column">
+                  <label class="label-components">Seu nome:</label>
+                  <input class="input-components" type="text" name="nome" id="nome" />
                 </div>
 
-                <div class="email">
-                  <label>E-mail</label>
-                  <input type="email" name="email" id="email" />
+                <div class="email flex-column">
+                  <label class="label-components">E-mail</label>
+                  <input class="input-components" type="email" name="email" id="email" />
                 </div>
 
-                <div class="cpf">
-                  <label>CPF:</label>
-                  <input type="number" name="cpf" id="cpf" />
+                <div class="cpf flex-column">
+                  <label class="label-components">CPF:</label>
+                  <input class="input-components" type="number" name="cpf" id="cpf" />
                 </div>
               </fieldset>
 
@@ -89,10 +89,10 @@
     </section>
 
     <section id="produtos">
-      <div class="wrapper">
-        <div class="content" id="market">
+      <div class="flex-container">
+        <div class="content flex-column" id="market">
           <div id="headerMkt"><h2>Sua seleção especial</h2></div>
-          <div class="products">
+          <div class="products flex-column">
             <div class="line">
               <div class="produto">
                 <div class="box"></div>
@@ -225,32 +225,32 @@
     </section>
 
     <section id="recommendation">
-      <div class="wrapper">
-        <div id="teste">
-          <div id="teste2"><h2>Compartilhe a novidade</h2></div>
+      <div class="flex-container">
+        <div>
+          <div id="header-share"><h2>Compartilhe a novidade</h2></div>
           <div id="textFriend"><p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p></div>
           
           <div class="formFriend">
             <form>
-              <fieldset>
+              <fieldset class="flex-center">
                 <div class="name">
-                  <label>Nome do seu amigo:</label>
-                  <input type="text" name="nome" id="nome" />
+                  <label class="label-components">Nome do seu amigo:</label>
+                  <input class="input-components" type="text" name="nome" id="nome" />
                 </div>
 
                 <div class="email">
-                  <label>E-mail</label>
-                  <input type="email" name="email" id="email" />
+                  <label class="label-components">E-mail</label>
+                  <input class="input-components" type="email" name="email" id="email" />
                 </div>
               </fieldset>
-              <div id="friendButton"><button type="submit">Enviar agora</button></div>
+              <div class="flex-center"><button type="submit">Enviar agora</button></div>
             </form>
         </div>
       </div>
     </section>
 
-    <footer>
-      <div class="flex-container">
+    <footer class="flex-center">
+      <div class="footer-content">
         <div class="finish">
           <p>Testando suas habilidades em HTML, CSS e JS. <br> Linc Impulse <br> 2019</p>
 

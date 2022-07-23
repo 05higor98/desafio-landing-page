@@ -1,0 +1,81 @@
+#headerMkt h2 {
+  display: flex;
+  margin: auto;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+#market #headerMkt h2::before {
+  content: '';
+  background-color: #888888;
+  width: 353px;
+  height: 1px;
+  margin-right: 16px;
+  margin-top: 11px;
+}
+
+#market #headerMkt h2::after {
+  content: '';
+  background-color: #888888;
+  width: 353px;
+  height: 1px;
+  margin-left: 16px;
+  margin-top: 11px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line .box {
+  width: 200px;
+  height: 150px;
+  border: solid 1px #707070;
+  margin-bottom: 14px;
+}
+
+.produto {
+  width: 200px;
+}
+
+.produto h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.produto p {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.produto .desc {
+  height: 60px;
+}
+
+.produto h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.produto span p {
+  margin-bottom: 10px;
+}
+
+.produto button {
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.products #btnProdutos {
+  margin: auto;
+}
+
+.products #btnProdutos button {
+  width: 260px;
+  height: 39px;
+  font-size: 16px;
+  margin-top: 12px;
+}

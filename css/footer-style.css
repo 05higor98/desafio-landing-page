@@ -1,0 +1,17 @@
+.finish{
+  align-items: center;
+}
+
+.finish p{
+  font-size: 12px;
+  text-align: center;
+  line-height: 18px;
+  margin-top: 157px;
+}
+
+footer{
+  background: #707070;
+  height: 399px;
+  color: #ffffff;
+  clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
+}

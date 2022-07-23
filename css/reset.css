@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica';
+  color: #888888;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px;
+  background: #707070;
+  height: 399px;
+  color: #ffffff;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 65%);
+}
