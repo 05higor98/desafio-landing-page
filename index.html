@@ -60,25 +60,29 @@
             <form>
               <fieldset>
                 <div class="name flex-column">
-                  <label class="label-components">Seu nome:</label>
+                  <label for="nome" class="label-components">Seu nome:</label>
                   <input class="input-components" type="text" name="nome" id="nome" />
                 </div>
 
                 <div class="email flex-column">
-                  <label class="label-components">E-mail</label>
+                  <label for="email" class="label-components">E-mail</label>
                   <input class="input-components" type="email" name="email" id="email" />
                 </div>
 
                 <div class="cpf flex-column">
-                  <label class="label-components">CPF:</label>
+                  <label for="cpf" class="label-components">CPF:</label>
                   <input class="input-components" type="number" name="cpf" id="cpf" />
                 </div>
               </fieldset>
 
               <div class="select">
-                <input type="radio" name="masculino" id="masculino" /> Masculino
+                <div>
+                  <input type="radio" id="male" name="genero" id="masculino" /> <label class="label-components" for="male">Masculino</label>
+                </div>
 
-                <input type="radio" name="feminino" id="feminino" /> Feminino
+                <div>
+                  <input type="radio" id="female" name="genero" id="feminino" /> <label class="label-components" for="female">Feminino</label>
+                </div>
               </div>
 
               <button type="submit">Enviar</button>
@@ -234,13 +238,13 @@
             <form>
               <fieldset class="flex-center">
                 <div class="name">
-                  <label class="label-components">Nome do seu amigo:</label>
-                  <input class="input-components" type="text" name="nome" id="nome" />
+                  <label for="nome-amigo" class="label-components">Nome do seu amigo:</label>
+                  <input class="input-components" type="text" name="nome" id="nome-amigo" />
                 </div>
 
                 <div class="email">
-                  <label class="label-components">E-mail</label>
-                  <input class="input-components" type="email" name="email" id="email" />
+                  <label for="email-amigo" class="label-components">E-mail</label>
+                  <input class="input-components" type="email" name="email" id="email-amigo" />
                 </div>
               </fieldset>
               <div class="flex-center"><button type="submit">Enviar agora</button></div>

@@ -72,9 +72,10 @@ fieldset {
 
 .select {
   margin-bottom: 23px;
+  display: flex;
 }
 
-.select #feminino {
+.select #female {
   margin-left: 40px;
 }
 
