@@ -15,3 +15,7 @@ footer{
   color: #ffffff;
   clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
 }
+
+.footer-content {
+  margin-top: 69px;
+}

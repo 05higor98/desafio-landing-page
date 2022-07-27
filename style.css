@@ -58,6 +58,33 @@ fieldset {
   width: 400px;
 }
 
+@media (min-width: 400px) and (max-width: 800px){
+  .content{
+    flex-direction: column;
+  }
+
+  .flex-container{
+    width: 386px;
+    margin-left: 16px ;
+    
+  }
+  
+  .text-queries{
+    height: 220px;
+    overflow: hidden;
+  }
+
+  .content main{
+    margin-bottom: 30px;
+  }
+
+  .content main p{
+    width: 386px;
+    
+    text-align: left;
+  }
+}
+
 .label-components{
   font-size: 12px;
   margin-bottom: 7px;
@@ -147,6 +174,3 @@ fieldset {
   margin-bottom: 72px;
 }
 
-.footer-content {
-  margin-top: 69px;
-}
