@@ -32,7 +32,8 @@ button {
   margin-bottom: 79px;
 }
 
-.content main {
+.content main,
+.content form{
   width: 520px;
 }
 
@@ -47,6 +48,7 @@ button {
   font-size: 12px;
   line-height: 18px;
 }
+
 
 fieldset {
   border: 0;
@@ -83,8 +85,13 @@ fieldset {
     
     text-align: left;
   }
-}
 
+  .form-querie input,
+  .form {
+    width: 380px;
+  }
+
+}
 .label-components{
   font-size: 12px;
   margin-bottom: 7px;
