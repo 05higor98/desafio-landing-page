@@ -23,7 +23,69 @@
   margin-top: 11px;
 }
 
-@media (min-width: 400px) and (max-width: 800px){
+
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line .box {
+  width: 200px;
+  height: 150px;
+  border: solid 1px var(--primary-color);
+  margin-bottom: 14px;
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  width: 200px;
+}
+
+.produto h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.produto .product-value {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.produto .desc {
+  height: 60px;
+  font-size: 12px;
+}
+
+.produto h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.produto span {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.produto button {
+  width: 200px;
+}
+
+.products #btnProdutos {
+  margin: auto;
+}
+
+.products #btnProdutos button {
+  width: 260px;
+  height: 39px;
+  font-size: 16px;
+}
+
+@media (min-width: 400px) and (max-width: 960px){
   #market #headerMkt h2::before {
     content: '';
     background-color: var(--letters-color);
@@ -70,6 +132,10 @@
     margin-left: 192px;
   }
 
+  .produto .product-querie span{
+    margin-bottom: 10px;
+  }
+
   .line .produto .box {
     width: 169px;
     height: 129px;
@@ -93,62 +159,4 @@
     height: 30px;
   }
  
-}
-
-.line {
-  display: flex;
-  justify-content: space-between;
-}
-
-.line .box {
-  width: 200px;
-  height: 150px;
-  border: solid 1px var(--primary-color);
-  margin-bottom: 14px;
-}
-
-.produto {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 40px;
-  width: 200px;
-}
-
-.produto h3 {
-  font-size: 14px;
-  font-weight: normal;
-  margin-bottom: 10px;
-}
-
-.produto p {
-  font-size: 12px;
-  margin-bottom: 6px;
-}
-
-.produto .desc {
-  height: 60px;
-}
-
-.produto h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 7px;
-}
-
-.produto span p {
-  margin-bottom: 10px;
-}
-
-.produto button {
-  width: 200px;
-}
-
-.products #btnProdutos {
-  margin: auto;
-}
-
-.products #btnProdutos button {
-  width: 260px;
-  height: 39px;
-  font-size: 16px;
 }

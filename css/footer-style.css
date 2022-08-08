@@ -20,6 +20,12 @@ footer{
   margin-top: 69px;
 }
 
-@media (min-width: 400px) and (max-width: 800px) {
-  
+@media (min-width: 400px) and (max-width: 960px) {
+  footer{
+    height: 157px;
+  }
+
+  .finish p{
+    margin-top: 6px;
+  }
 }
