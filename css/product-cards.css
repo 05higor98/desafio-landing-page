@@ -85,7 +85,7 @@
   font-size: 16px;
 }
 
-@media (min-width: 400px) and (max-width: 960px){
+@media (min-width: 375px) and (max-width: 960px){
   #market #headerMkt h2::before {
     content: '';
     background-color: var(--letters-color);
@@ -99,7 +99,7 @@
   #market #headerMkt h2::after {
     content: '';
     background-color: var(--letters-color);
-    width: 85px;
+    width: 100px;
     height: 1px;
     margin-left: 17px;
     margin-top: 11px;
