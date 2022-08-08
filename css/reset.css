@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-:root{
-  --primary-color : #707070;
+:root {
+  --primary-color: #707070;
   --letters-color: #888888;
 }
 
@@ -13,4 +13,3 @@ body {
   font-family: 'Helvetica';
   color: var(--letters-color);
 }
-

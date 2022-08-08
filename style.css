@@ -34,8 +34,7 @@ button {
 
 .content main,
 .content form{
-  width: 520px;
-
+  width: 100%;
 }
 
 .content main h2 {
@@ -45,7 +44,7 @@ button {
 }
 
 .content main p {
-  width: 520px;
+  max-width: 100%;
   font-size: 12px;
   line-height: 18px;
 }
@@ -58,12 +57,12 @@ fieldset {
 .form {
   display: flex;
   justify-content: flex-end;
-  width: 400px;
+  width: 100%;
   margin-left: 60px;
 }
 
 .form  form button{
-  width: 340px;
+  width: 100%;
 }
 
 .label-components{
@@ -73,7 +72,7 @@ fieldset {
 
 .input-components{
   height: 30px;
-  width: 340px;
+  width: 400px;
   border: 1px solid var(--primary-color);
   margin-bottom: 20px;
 }
@@ -156,19 +155,20 @@ fieldset {
   margin-bottom: 72px;
 }
 
-@media (min-width: 375px) and (max-width: 960px){
+@media (min-width: 300px) and (max-width: 960px){
 
   .content main{
     width: 100%;
   }
   
   .content{
-    width: 400px;
+    width: 100%;
     flex-direction: column;
   }
 
   .flex-container{
-    width: 400px;
+    max-width: 400px;
+    min-width: 300px;
     margin: auto;
     
   }
