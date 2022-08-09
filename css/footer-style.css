@@ -11,13 +11,9 @@
 
 footer{
   background: var(--primary-color);
-  height: 399px;
+  height: 293px;
   color: #ffffff;
   clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
-}
-
-.footer-content {
-  margin-top: 69px;
 }
 
 @media (min-width: 300px) and (max-width: 960px) {
@@ -26,6 +22,6 @@ footer{
   }
 
   .finish p{
-    margin-top: 6px;
+    margin-top: 71px;
   }
 }

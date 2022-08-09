@@ -23,8 +23,6 @@
   margin-top: 11px;
 }
 
-
-
 .line {
   display: flex;
   justify-content: space-between;
@@ -66,9 +64,13 @@
   margin-bottom: 7px;
 }
 
-.produto span {
+.produto span{
   margin-bottom: 10px;
   font-size: 12px;
+}
+
+.produto .product-querie button{
+  margin-top: 10px;
 }
 
 .produto button {
@@ -83,6 +85,10 @@
   width: 260px;
   height: 39px;
   font-size: 16px;
+}
+
+.product-section #second-line{
+  margin-bottom: 12px;
 }
 
 @media (min-width: 300px) and (max-width: 960px){

@@ -4,8 +4,15 @@ header {
   margin-bottom: 21px;
   height: 399px;
   color: #ffffff;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 65%);
+  
+  
+}
+
+.poligono {
   background: var(--primary-color);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 72%);
+  width: 100vw;
+  
 }
 
 .intro {
@@ -46,6 +53,7 @@ header {
   header{
     width: 100%;
   }
+
   .header-content{
     width: 100%;
   }
@@ -55,8 +63,7 @@ header {
     margin-left: auto;
     max-width: 340px;
     flex-flow: wrap;
-    
-
+    margin-bottom: 68px;
   }
 
   .buttons button{
