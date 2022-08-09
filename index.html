@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Landing Page</title>
   </head>
   <body>
-    <header>
+    <header id="navigation">
       <div class="poligono"></div>
-      <div class="header-content ">
+      <div class="header-content">
         <div class="intro flex-column flex-container">
           <h2>uma seleção de produtos</h2>
           <h1>especial para você</h1>
@@ -21,10 +22,10 @@
         </div>
 
         <div class="buttons">
-          <button>Conheça a linx</button>
-          <button>Ajude o algorítimo</button>
-          <button>Seus produtos</button>
-          <button>Compartilhe</button>
+          <a target="_blank" href="https://www.linx.com.br/"><button>Conheça a linx</button></a>
+          <a href="#home"><button>Ajude o algorítimo</button></a>
+          <a href="#produtos"><button>Seus produtos</button></a>
+          <a href="#recommendation"><button>Compartilhe</button></a>
         </div>
       </div>
     </header>
@@ -230,7 +231,9 @@
                       que explica melhor do que se trata.
                     </p>
                   </div>
-                  <p>De: R$23,99</p>
+                  <div class="product-value">
+                    <p>De: R$23,99</p>
+                  </div>
                   <h2>Por: R$19,99</h2>
                   <span>
                     <p>ou 2x de R$9,99</p>
@@ -298,5 +301,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>

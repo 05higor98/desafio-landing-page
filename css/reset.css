@@ -9,6 +9,10 @@
   --letters-color: #888888;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Helvetica';
   color: var(--letters-color);
