@@ -190,7 +190,7 @@ fieldset {
 
   .form-querie input,
   .form {
-    width: 385px;
+    width: 380px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -238,7 +238,7 @@ fieldset {
   }
 
   .formFriend fieldset .input-components{
-    width: 385px;
+    width: 380px;
     max-width: 100%;
   }
 
