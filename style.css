@@ -57,12 +57,12 @@ fieldset {
 .form {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  width: 340px;
   margin-left: 60px;
 }
 
 .form  form button{
-  width: 100%;
+  width: 340px;
 }
 
 .label-components{
@@ -72,7 +72,7 @@ fieldset {
 
 .input-components{
   height: 30px;
-  width: 400px;
+  width: 340px;
   border: 1px solid var(--primary-color);
   margin-bottom: 20px;
 }
@@ -87,7 +87,7 @@ fieldset {
 }
 
 .form button {
-  width: 100%;
+  width: 340px;
   font-size: 16px;
   color: var(--letters-color);
   border: 1px solid var(--primary-color);

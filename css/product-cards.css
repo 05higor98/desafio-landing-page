@@ -140,6 +140,7 @@
     width: 169px;
     height: 129px;
     margin-bottom: 14px;
+    position: absolute;
   }
 
   .produto h3{
@@ -157,6 +158,10 @@
 
   .produto button{
     height: 30px;
+  }
+
+  .product-section #second-line{
+    display: none;
   }
  
 }
